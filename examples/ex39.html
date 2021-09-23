@@ -1,6 +1,6 @@
-<form action="□□.php" >
-<label for="Q1" >你喜歡這本茶經嗎？</label>
-<input type="radio" name="Q1" value="T" id="Q1"/>喜歡
-<input type="radio" name="Q1" value="F" />不喜歡
+<form action="" oninput="Q1answer.value=Q1.value">
+品茗之後，您認為茶湯的濃淡如何？
+淡<input type="range" name="Q1" max="5" min="1"  id="Q1" />濃
+<output for="Q2" name="Q1answer"> 0 </output>
 <button type="submit" >交問卷</button>
 </form>
